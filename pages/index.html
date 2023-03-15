@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="../assets/logo_wobackground.png" alt="logo" class="header__logo">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">Item 2</a></li>
+                <li><a href="">Item 3</a></li>
+                <li><a href="">Item 4</a></li>
+            </ul>
+        </div>
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Insectus</span>
+                <span class="heading-primary--sub">The loop of life</span>
+            </h1>
+
+            <a href="#motivatie" class="btn btn--white btn--animated">Despre noi</a>
+        </div>
+    </header>
+
+    <section class="section__content">
+        <div class="section__sec" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+            <div class="section__text-box">
+                <h2>Procesul de fabricatie</h2>
+                <p>Procesul nostru de fabricație implică parcurgerea a 5 etape principale:
+                    înmulțirea, creșterea, criogenarea, pregătirea furajelor și ambalarea.<br> Pregătirea furajelor include mărunțirea, sortarea și asezonarea, după preferință, a insectelor.
+                    Odată ce au fost livrate, vă puteți bucura animalele cu produsele noastre.</p>
+            </div>
+            <img src="../assets/utilaje.png" class="section__img" alt="Productie">
+        </div>
+
+        <div class="section__sec" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+            <img src="../assets/animaleCompanie.png" class="section__img" alt="Animale de companie">
+            <div class="section__text-box">
+                <h2>Animale de companie</h2>
+                <p>Pisicile și cățelușii noștri merită tot ce e mai bun, în special hrană de calitate care să îi mențină sănătoși, jucăuși și veseli. <br>
+                    Furajele noastre sunt bogate în nutrienți Omega 6 și fibre, toate acestea într-o formă mai gustoasă și ușor de digerat.</p>
+            </div>
+        </div>
+
+        <div class="section__sec" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+            <div class="section__text-box">
+                <h2>Porcine si pasari</h2>
+                <p>Micile vietăți fac deja parte din dieta lor, demonstrându-și beneficiile în timp. <br> De exemplu, studiile arată că viermele de făină îmbunătățește digestia și starea de spirit a păsărilor.</p>
+            </div>
+            <img src="../assets/porciPasari.png" class="section__img" alt="Animale domestice">
+        </div>
+
+        <div class="section__sec" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+            <img src="../assets/agricultura.png" class="section__img" alt="Agricultura">
+            <div class="section__text-box">
+                <h2>Agricultura</h2>
+                <p>Îngrășămintele și fertilizanții noștri sunt 100% naturali, eficienți și sporesc calitățile solului cu 20% față de alternativa clasică, la un preț avantajos. <br>
+                    Pentru Insectus, protejarea naturii este o prioritate. De aceea, transformăm  dejecțiile viermilor de făină într-un îngrășământ de calitate superioară. <br>
+                    Toate aceste calități fac fertilizanții Insectus prietenii ideali ai plantelor dumneavoastră.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="motivatie" class="motivatie">
+        <div class="motivatie__content" data-aos="fade-up" data-aos-duration="1500"  data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+            <h2>De ce insecte?</h2>
+            <p>Creșterea accelerată a populației. Suntem 8 miliarde de oameni pe Pământ, un nou record stabilit recent, iar acest număr va continua să crească. Până în 2057 populația lumii va crește la 10 miliarde, iar acest fapt provoacă îngrijorare, în special din cauza deficitului de hrană din anumite zone geografice. Avem nevoie urgent de o sursă de hrană calitativă, accesibilă, și care folosește eficient resursele planetei. <br> <br>
+                 Insectele sunt soluția noastră! Greierii, viermii, muștele și cărăbușii sunt surse de proteine de calitate, surse de aminoacizi, fier, calciu, vitamina B3, B6 și altele.</p>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="news__card">
+            <div class="news__text">
+                <p>De la <em>idee</em> la <strong>realitate</strong></p>
+                <a style="position:absolute; left: 2rem; bottom: 2rem"  onclick="showText()" href="#news" id="news" class="btn btn--white btn--animated">Detalii</a>
+                
+            </div>
+            <div class="news__imagine">
+                <img id="imagine" class="news__img" src="../assets/headerPhoto2.jpg" alt="news">
+                <div class="news__text2" id="paragraf">
+                    La data de 9 Decembrie 2022 a fost formată echipa 'Insectus' , cu ocazia unei competiții antreprenoriale organizate de universitate, la care au obținut performanțe fosrte bune. Astfel, le-a fost confirmată necesitatea unei ferme de insecte și proiectul a fost demarat la scară largă. <br><br> Misiunea lor este de a rezolva criza alimentară prin oferirea unor alternative superioare, mai ieftine și mai inteligente pentru planetă: <strong>insectele</strong>.
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
+        var imagine = document.getElementById("imagine");
+        let paragraf = document.getElementById('paragraf')
+
+        function showText(){
+            if(!imagine.classList.contains("opacity")){
+                imagine.classList.add("opacity");
+                paragraf.style.display = "block";
+            }else{
+                paragraf.style.display = "none";
+                imagine.classList.remove("opacity");
+            }
+        }
+    </script>
+</body>
+</html>

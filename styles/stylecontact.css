@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Crimson+Text&family=Hind+Madurai:wght@700&display=swap');
+/* 
+    #E9EFC0
+    #B4E197
+    #83BD75
+    #4E944F
+
+
+    #7ed56f
+    #55c57a
+    #28b485
+
+    #FEFAE0
+    #e9e7dd
+*/
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 3rem;
+    color: #777;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 35vh;
+    background: linear-gradient(to right bottom, #7ed56fb8, #28b485b8);
+    
+}
