@@ -29,13 +29,109 @@ html{
 }
 
 body{
-    padding: 3rem;
+    
     color: #777;
     box-sizing: border-box;
 }
 
 .header{
-    height: 35vh;
+    height: 45vh;
     background: linear-gradient(to right bottom, #7ed56fb8, #28b485b8);
     
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    list-style-type: none;
+}
+
+.navbar li{
+    padding: 1rem 2rem;
+    margin: auto 2rem;
+    border-radius: 3rem;
+    border: 1px solid #777;
+    background-color: #fff;
+    transition: all .3s ease-in;
+}
+
+.navbar li:hover{
+    background-color: #777;
+    color: #fff;
+    
+    transition: all .2s ease-out;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+  
+}
+
+.navbar__logo{
+    height: 14rem;
+}
+
+.info{
+    background-color: #f0f0f0;
+    padding: 8rem;
+    height: 50vh;
+}
+
+.info__card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    justify-content: center;
+    margin-top: -20rem;
+}
+
+.info__text{
+    height: 35rem;
+    width: 30rem;
+    padding: 3rem;
+    background-color: #3C2A21;
+    color: #f0f0f0;
+    
+}
+
+.info__img img{
+    height: 35rem;
+}
+
+.info__text h2{
+    font-size: 2rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+    margin-bottom: 3rem;
+}
+
+.section{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.section p{
+    font-family: 'Crimson Text', 'sans-serif';
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.media i{
+    color: #fff;
+    font-size: 3rem;
+    margin-right: 4rem;
 }

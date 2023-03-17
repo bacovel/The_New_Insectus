@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Crimson+Text&family=Hind+Madurai:wght@700&display=swap');
+/* 
+    #E9EFC0
+    #B4E197
+    #83BD75
+    #4E944F
+
+
+    #7ed56f
+    #55c57a
+    #28b485
+
+    #FEFAE0
+    #e9e7dd
+*/
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    color: #777;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 10rem;
+    background-color: #f0f0f0;
+}
+.header h1{
+    font-size: 5rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+}
+
+.content{
+    padding: 5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.cards{
+    width: 30rem;
+    padding: 3rem;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    
+}
+
+.cards__body h5{
+    font-size: 1.8rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+    color: black;
+}
+
+.cards__body p{
+    font-size: 2rem;
+    font-family: 'Crimson Text', 'sans-serif';
+    color: black;
+}
+
+.cards img{
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin: auto;
+}
+
+.piete__text{
+    padding: 5rem;
+    margin-bottom: 10rem;
+
+}
+
+.piete__text h2{
+    font-size: 3rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.piete__text p{
+    font-size: 1.8rem;
+    font-family: 'Cormorant Garamond', 'sans-serif';
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.profil{
+    background-color: #3b3633;
+    color: #fff;
+    padding: 8rem 8rem 12rem 8rem; 
+    text-align: center;
+    /* border-radius: 3rem; */
+    border-radius: 3rem 3rem 0 0;
+    margin-top: 10rem;
+}
+
+.profil__content h2{
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+}
+
+.profil__content p{
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', 'sans-serif'
+}
+
+
+
+.pie-charts{
+    background-color: #e9e7dd;
+    color: #fff;
+    padding: 8rem 8rem 12rem 8rem; 
+    text-align: center;
+    /* border-radius: 3rem; */
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -4rem;
+
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+    .x-box1{
+        width: 20rem;
+        height: 20rem;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 50%;
+        background-color:#4E944F;
+    
+        background:repeating-conic-gradient(
+            from 0deg,
+            #e66379 0deg calc(3.6deg * 70),
+            #12CBC4 calc(3.6deg * 70) calc(3.6deg * 100)
+        );
+    }
+    
+    .x-box-cont1{
+        font-size: 1.8rem;
+        color: #777;
+    }
+    .x-box-cont1 h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .x-box-cont1 strong{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    /* ------------------------------ */
+
+    .x-box2{
+        width: 20rem;
+        height: 20rem;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 50%;
+        background-color:#4E944F;
+    
+        background:repeating-conic-gradient(
+            from 0deg,
+            #e66379 0deg calc(3.6deg * 65),
+            rgb(226, 203, 101) calc(3.6deg * 65) calc(3.6deg * 90),
+            #12CBC4 calc(3.6deg * 90) calc(3.6deg * 100)
+        );
+    }
+    
+    .x-box-cont2{
+        font-size: 1.8rem;
+        color: #777;
+    }
+    .x-box-cont2 h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .x-box-cont2 strong{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    /* ------------------------------- */
+
+    .x-box3{
+        width: 20rem;
+        height: 20rem;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 50%;
+        background-color:#4E944F;
+    
+        background:repeating-conic-gradient(
+            from 0deg,
+            #e66379 0deg calc(3.6deg * 70),
+            rgb(226, 203, 101) calc(3.6deg * 70) calc(3.6deg * 90),
+            #12CBC4 calc(3.6deg * 90) calc(3.6deg * 100)
+        );
+    }
+    
+    .x-box-cont3{
+        font-size: 1.8rem;
+        color: #777;
+    }
+    .x-box-cont3 h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .x-box-cont3 strong{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+    .pie1, .pie2, .pie3 {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
