@@ -54,14 +54,44 @@ h1{
 }
 
 
-.header__logo-box{
-    position: absolute;
-    top: 4rem;
-    left: 3rem;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.header__logo{
-    width: 20rem;
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    list-style-type: none;
+}
+
+.navbar li{
+    padding: 1rem 2rem;
+    margin: auto 2rem;
+    border-radius: 3rem;
+    border: 1px solid #777;
+    background-color: #fff;
+    transition: all .3s ease-in;
+}
+
+.navbar li:hover{
+    background-color: #777;
+    color: #fff;
+    
+    transition: all .2s ease-out;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+  
+}
+
+.navbar__logo{
+    height: 20rem;
 }
 
 .header__text-box{

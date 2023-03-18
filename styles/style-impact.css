@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Crimson+Text&family=Hind+Madurai:wght@700&display=swap');
+/* 
+    #E9EFC0
+    #B4E197
+    #83BD75
+    #4E944F
+
+
+    #7ed56f
+    #55c57a
+    #28b485
+
+    #FEFAE0
+    #e9e7dd
+*/
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    color: #777;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('../assets/impact-header.jpg');
+    background-color: #f0f0f0;
+}
+.header h1{
+    padding: 10rem;
+    font-size: 5rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+    color: #ffff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    list-style-type: none;
+}
+
+.navbar li{
+    padding: 1rem 2rem;
+    margin: auto 2rem;
+    border-radius: 3rem;
+    border: 1px solid #777;
+    background-color: #fff;
+    transition: all .3s ease-in;
+}
+
+.navbar li:hover{
+    background-color: #777;
+    color: #fff;
+    
+    transition: all .2s ease-out;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+  
+}
+
+.navbar__logo{
+    height: 20rem;
+}
+
+.content{
+    margin: 0 5rem;
+    background-color: #f0f0f0;
+}
+
+.content h3{
+    font-size: 3rem;
+    font-family: 'Cormorant Garamond', 'sans-serif';
+    padding: 8rem 20rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+.section__sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
+.section__text-box{
+    margin: 4rem;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+.section__text-box h2{
+    font-size: 2.5rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+    margin-bottom: 2rem;
+}
+
+.section__text-box p{
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', 'sans-serif';
+}
+
+.section__img{
+    height: 20rem;
+    margin: 4rem;
+    border-radius: 2rem;
+
+}
+
+.circular{
+    background-color: #032029;
+    color: #fff;
+    padding: 8rem 8rem 12rem 8rem; 
+    text-align: center;
+    /* border-radius: 3rem; */
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -4rem;
+}
+
+.circular h2{
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-family: 'Hind Madurai', 'sans-serif';
+}
+
+.circular p{
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', 'sans-serif';
+    margin-bottom: 20rem;
+    
+}
+
+.video{
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 8rem 8rem 12rem 8rem; 
+    text-align: center;
+    /* border-radius: 3rem; */
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -4rem;
+}
+
+.video video{
+    width: 72rem;
+}
